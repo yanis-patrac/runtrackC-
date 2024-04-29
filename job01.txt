@@ -1,0 +1,12 @@
+//1X = p + 3 :
+Type : short int
+Valeur : 13
+//2y = c + 1 :
+Type : char
+Valeur : '\x02' (car '\x01' + 1 = '\x02')
+//3Z = p + c :
+Type : int (promotion de type, car addition d'un short int et d'un char)
+Valeur : 11 ('\x01' est promu en tant que 1, donc 10 + 1 = 11)
+//4W = 3 * p + 5 * c :
+Type : int (promotion de type, car multiplication d'un short int et d'un char)
+Valeur : 35 (3 * 10 + 5 * 1 = 30 + 5 = 35)
